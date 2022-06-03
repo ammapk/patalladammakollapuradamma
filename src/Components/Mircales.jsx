@@ -1,5 +1,5 @@
 import React from 'react'
-import about from "../images/about.svg";
+// import about from "../images/about.svg";
 import Common from './Common'
 import amma from "../images/image3.jpg";
 

@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="col-12 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
-                <div className="col-sm-2 col-lg-3 col-md-3 order-1 order-lg-2 order-md-1 header-image md-p-0 md-m-0 d-flex justify-content-end" >
+                <div className="col-sm-2 col-lg-2 col-md-3 order-1 order-lg-2 order-md-1 header-image md-p-0 md-m-0 d-flex justify-content-end" >
                   <img src={Logo} alt="Home Img" className="boxfilter order-md-2 order-sm-1"  />
                 </div>
                 <NavLink exact className="navbar-brand " to="/">
