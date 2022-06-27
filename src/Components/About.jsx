@@ -5,8 +5,9 @@ import utsav from "../images/UtsavMurthy.jpg";
 import shivaskandh from "../images/SriShivaSkandha.png";
 import basavanna from "../images/basavanna.png";
 
-import Common from './Common'
+// import Common from './Common'
 import '../timeline.scss';
+import Temple from './temple';
 
 const About = () => {
     return (
@@ -79,8 +80,8 @@ const About = () => {
 
                 </div>
             </section>
-            <Common
-                name='ದೇವಾಲಯದ ಟ್ರಸ್ಟ್ ಮಾಹಿತಿ ಬಗ್ಗೆ'
+            <Temple
+                name='ದೇವಾಲಯದ ಸಂಕ್ಷಿಪ್ತ ಅವಲೋಕನ'
                 imgsrc={alankara}
                 visit='/contact'
                 btnname="Contact Now"

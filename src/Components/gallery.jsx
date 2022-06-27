@@ -98,9 +98,9 @@ const Photogallery = ({
                     <div className="order-2 order-lg-2 h-75 w-100 mt-5 mb-0 order-md-1 animated glow-on-hover">
                         <p className="blockquote  fs-2 text-center fw-bold">
                             ದೇವಾಲಯದ ಪೂಜೆ ಮತ್ತು ದರ್ಶನ ವೇಳಾಪಟ್ಟಿ</p>
-                        <div className="container-fluid d-flex justify-content-start mt-5">
+                        <div className="container-fluid d-flex justify-content-start mt-2">
                             <img src={pujatime} alt="Puja timings" className="flowerfilter" />
-                            <div className='col-6 m-1' >
+                            <div className='col-6 m-0' >
                                 <img src={abhishekam} alt="Devi Abhishekam" className="col-12 p-1 flowerfilter" />
                                 <img src={aarti} alt="Devi aarti" className="col-12 p-1 flowerfilter" />
                             </div>
