@@ -15,13 +15,11 @@ const Temple = ({
             <section id="header" className="d-block d-flex align-items-center">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-11 mx-auto">
-                            <div className="row g-0 pt-5 mt-5">_</div>
-                            <div className="row g-0 pt-5 mt-5">_</div>
-                            <div className="row g-0 pt-5 mt-5">
+                        <div className="col-11 mx-auto"> 
+                            <div className="row g-0 pt-5 mt-0">
                                 <div className="col-lg-6 col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                                    <p className="blockquote bg-light fs-6 text-center fw-bold">
-                                        {name}</p><p className="fs-2 fw-bold">
+                                    <p className="blockquote bg-light fs3 text-center fw-bold abouttitle">
+                                        {name}</p><p className="fs3 fw-bold">
                                         {isCompName ? <strong className="brand-name"> {compName}</strong> : ""}
 
                                     </p>
@@ -53,13 +51,13 @@ const Temple = ({
                                         ದಾಟುವುದರ ಮುಖಾಂತರ ಎಲ್ಲಾ ಕಷ್ಟಗಳನ್ನು ದೂರ ಮಾಡುತ್ತಿದ್ದಾನೆ ಈ ಭಗವಂತ.
                                         ತಪ್ಪದೇ ಎಲ್ಲರೂ ಕೂಡ ಈ ಪುಣ್ಯ ಕ್ಷೇತ್ರವನ್ನು ಭೇಟಿ ಮಾಡಿ ಇಲ್ಲಿ ನೆಲೆಸಿರುವ ದೇವಾನುದೇವತೆಗಳ ದರ್ಶನದಿಂದ ಪುನೀತರಾಗಿ</small>
                                     </p>
-                                    <div className="mb-3">
+                                    <div className="mb-3 text-center">
                                         <NavLink to={visit} className="btn-get-started ">
                                             {btnname}
                                         </NavLink>
                                     </div>
                                 </div>
-                                <div className="col-sm-12 col-md-6 col-lg-6 order-1 order-lg-2  order-md-1 ">
+                                <div className="col-sm-12 col-md-12 col-lg-12 order-1 order-lg-2  order-md-1 ">
                                     <img src={imgsrc} className="imgmain img-fluid animated " alt="Home Img" />
                                 </div>
                             </div>

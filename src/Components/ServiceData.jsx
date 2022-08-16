@@ -16,22 +16,22 @@ const ServiceData = [
         title: "ಶ್ರೀ ಶ್ರೀ ಸುಬ್ರಹ್ಮಣ್ಯ ದೇವರು, ಶ್ರೀ ಶ್ರೀ ಭಗವಾನ್ ಶಿವ ದೇವರು & ಶ್ರೀ ಶ್ರೀ ಬಸಣ್ಣ ದೇವರು ಪೂಜಾ ಸೇವೆಗಳು",
         content: " ಸುಬ್ರಹ್ಮಣ್ಯ ಹಾಗೂ ಶಿವನ ಪೂಜೆ ಮಾಡಿಸಬಹುದು ಹಾಗೂ ಕುಕ್ಕೆ ಸುಬ್ರಮಣ್ಯ ದೇವಾಲಯದಲ್ಲಿ ನಡೆಯುವ ಪೂಜೆ ಅದೇ ಪೂಜೆಯನ್ನು ನಾವು ಇಲ್ಲಿಯೂ ಮಾಡಿಸಬಹುದು. ಸಂಕ್ರಾಂತಿ ದಿನವೂ ಶ್ರೀ ಬಸವಣ್ಣನವರ ವಿಶೇಷ ಪೂಜೆ ನಡೆಯುತ್ತದೆ ಮಕ್ಕಳ ವಿದ್ಯಾಭ್ಯಾಸ ಪೂಜೆಯನ್ನು ಇಲ್ಲಿಯೂ ಮಾಡಿಸಬಹುದು "
     },
-    {
-        imgsrc: software,
-        title: "Software Development"
-    },
-    {
-        imgsrc: marketing,
-        title: "Digital Marketing"
-    },
-    {
-        imgsrc: fullstack,
-        title: "Full Stack Development"
-    },
-    {
-        imgsrc: marketing,
-        title: "Marketing"
-    }
+    // {
+    //     imgsrc: software,
+    //     title: "Software Development"
+    // },
+    // {
+    //     imgsrc: marketing,
+    //     title: "Digital Marketing"
+    // },
+    // {
+    //     imgsrc: fullstack,
+    //     title: "Full Stack Development"
+    // },
+    // {
+    //     imgsrc: marketing,
+    //     title: "Marketing"
+    // }
 ];
 
 export default ServiceData;

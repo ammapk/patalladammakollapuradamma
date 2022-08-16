@@ -7,11 +7,11 @@ const Services = () => {
         <>
             <div className="my-5">
                 <h1 className="text-center">ಪೂಜಾ ಸೇವೆಗಳು</h1>
-                <h6 class="text-center">ಶ್ರೀ ಪಟ್ಟಲದಮ್ಮ ಕೊಲ್ಲಾಪುರದಮ್ಮ ದೇವಸ್ಥಾನದಲ್ಲಿ ಅನೇಕ ಪೂಜೆ ಹಾಗೂ ವಿಶೇಷತೆಗಳ ಮಾಹಿತಿ ಕೆಳಗೆ ಇದೆ</h6>            
+                <h6 className="text-center">ಶ್ರೀ ಪಟ್ಟಲದಮ್ಮ ಕೊಲ್ಲಾಪುರದಮ್ಮ ದೇವಸ್ಥಾನದಲ್ಲಿ ಅನೇಕ ಪೂಜೆ ಹಾಗೂ ವಿಶೇಷತೆಗಳ ಮಾಹಿತಿ ಕೆಳಗೆ ಇದೆ</h6>            
             </div>
             <div className="container-fluid mb-5">
             <div className="row">
-                <div className="col-10 mx-auto">
+                <div className="col-11 mx-auto">
                     <div className="row gy-4">
                         {
                         ServiceData.map((val, index) => {

@@ -35,41 +35,23 @@ const Photogallery = ({
     return (
         <>
             <section id="alankar" className="d-block d-flex justify-contents-start">
-                <div className="container-fluid">
+                <div className="container-fluid phsection">
                     <div className="row align-items-start gallerypnl mt-5">
-                        <div className="col-lg-10 col-md-8 col-sm-12 offset-1 ">
+                        <div className="col-lg-10 col-md-8 col-sm-11 offset-1 ">
                             <div className="g-0 pt-3 mt-md-2 mt-lg-5 mt-sm-5 d-flex align-items-start mt-sm-2  mt-md-2  mt-lg-2">
-                                <div className="order-1 order-lg-1 mt-5 ">
-                                    <p className="blockquote  fs-2 text-start fw-bold">
+                                <div className="order-1 order-lg-1 m-0 ">
+                                    <p className="blockquote  fs-2 text-center fw-bold">
                                         {name}</p>
-                                    <h2 className="fs-6 p-2">
+                                    <h2 className="fs-6 p-4 m-2 text-left">
                                         ಈ ದಿನದ ಶ್ರೀ ಪಟ್ಟಲ್ಲದಮ್ಮನ ಮತ್ತು ಶ್ರೀ ಕೊಲ್ಲಾಪುರದಮ್ಮನ ಅಲಂಕಾರ ದೃಶ್ಯ. ಈ ರೀತಿಯ ಹೆಚ್ಚು ಸುಂದರವಾದ ಚಿತ್ರಗಳಿಗಾಗಿ, ಕೆಳಗಿನ ಚಾನಲ್ ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.
                                     </h2>
-                                    <div className="mt-3">
+                                    <div className="mt-3 text-center">
                                         <NavLink to={visit} >
                                             <button className="glow-on-hover">{btnname}</button>
                                         </NavLink>
                                     </div>
                                 </div>
-                                <div className="order-2 order-lg-2 h-50 w-100 mt-5 order-md-1 animated glow-on-hover">
-                                    <Gallery photos={photos} onClick={openLightbox} direction="row" targetRowHeight="100" />
-                                    <ModalGateway>
-                                        {viewerIsOpen ? (
-                                            <Modal onClose={closeLightbox}>
-                                                <Carousel
-                                                    currentIndex={currentImage}
-                                                    views={photos.map(x => ({
-                                                        ...x,
-                                                        srcset: x.srcSet,
-                                                        caption: x.title
-                                                    }))}
-                                                />
-                                            </Modal>
-                                        ) : null}
-                                    </ModalGateway>
-                                </div>
                             </div>
-
                         </div>
 
                         {/* <div className='col-lg-5 col-md-8 col-sm-12'>
@@ -95,26 +77,47 @@ const Photogallery = ({
                             </div>
                         </div> */}
                     </div>
-                    <div className="order-2 order-lg-2 h-75 w-100 mt-5 mb-0 order-md-1 animated glow-on-hover">
-                        <p className="blockquote  fs-2 text-center fw-bold">
-                            ದೇವಾಲಯದ ಪೂಜೆ ಮತ್ತು ದರ್ಶನ ವೇಳಾಪಟ್ಟಿ</p>
-                        <div className="container-fluid d-flex justify-content-start mt-2">
-                            <img src={pujatime} alt="Puja timings" className="flowerfilter" />
-                            <div className='col-6 m-0' >
-                                <img src={abhishekam} alt="Devi Abhishekam" className="col-12 p-1 flowerfilter" />
-                                <img src={aarti} alt="Devi aarti" className="col-12 p-1 flowerfilter" />
+                    <div className='row'>
+                        <div className="order-2 order-lg-2 h-50 w-100 mt-5 order-md-1 animated glow-on-hover">
+                            <Gallery photos={photos} onClick={openLightbox} direction="row" targetRowHeight={100} />
+                            <ModalGateway>
+                                {viewerIsOpen ? (
+                                    <Modal onClose={closeLightbox}>
+                                        <Carousel
+                                            currentIndex={currentImage}
+                                            views={photos.map(x => ({
+                                                ...x,
+                                                srcset: x.srcSet,
+                                                caption: x.title
+                                            }))}
+                                        />
+                                    </Modal>
+                                ) : null}
+                            </ModalGateway>
+                        </div>
+                    </div>
+                    <div className='row' id="poojatime">
+                        <div className="order-2 order-lg-2 h-75 w-100 mt-5 mb-0 order-md-1 animated glow-on-hover">
+                            <p className="blockquote  fs-2 text-center fw-bold">
+                                 ದೇವಾಲಯದ ಪೂಜೆ ಮತ್ತು ದರ್ಶನ ವೇಳಾಪಟ್ಟಿ</p>
+                            <div className="container-fluid  justify-content-start mt-2">
+                                <img src={pujatime} alt="Puja timings" className="flowerfilter" />
+                                <div className='col-lg-12 col-md-12 col-sm-12 m-0' >
+                                    <img src={abhishekam} alt="Devi Abhishekam" className="col-lg-6 col-md-6 col-sm-12 p-1 flowerfilter" />
+                                    <img src={aarti} alt="Devi aarti" className="col-lg-6 col-md-6 col-sm-12 p-1 flowerfilter" />
+                                </div>
                             </div>
-                        </div>
-                        <div className="container-fluid d-flex justify-content-center">
-                            <img src={flower} alt="Home Img" className="flowerfilter" />
-                        </div>
-                        {/* <p className="blockquote  fs-2 text-center fw-bold  pt-5">
+                            <div className="container-fluid d-flex justify-content-center">
+                                <img src={flower} alt="Home Img" className="flowerfilter" />
+                            </div>
+                            {/* <p className="blockquote  fs-2 text-center fw-bold  pt-5">
                             ದೇವಾಲಯದ ಪೂಜೆ ಮತ್ತು ದರ್ಶನ ವೇಳಾಪಟ್ಟಿ
                         </p> */}
-                        <div className='row'>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=EtpKIP7PgLk' className="col-6"/>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=uYmiHjm4Wfw' className="col-6"/>
                         </div>
+                    </div>
+                    <div className='row plyr'>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=EtpKIP7PgLk' className="col-12"/>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=uYmiHjm4Wfw' className="col-12"/>
                     </div>
 
                 </div>

@@ -7,10 +7,10 @@ const Miracle = () => {
     return (
         <>
             <Common 
-                name='Welcome to About Page' 
+                name='ಆಧ್ಯಾತ್ಮಿಕ ಪವಾಡಗಳು' 
                 imgsrc={amma} 
                 visit='/contact' 
-                btnname="Contact Now" 
+                btnname="ಈಗ ಸಂಪರ್ಕಿಸಿ" 
             />
         </>
     )

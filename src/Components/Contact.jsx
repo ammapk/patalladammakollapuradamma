@@ -38,7 +38,7 @@ const Contact = () => {
             <form onSubmit={formSubmitHandle}>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">
-                  FullName
+                ಪೂರ್ಣ ಹೆಸರು
                 </label>
                 <input
                   type="text"
@@ -47,10 +47,10 @@ const Contact = () => {
                   name="fullname"
                   value={data.fullname}
                   onChange={inputEvent}
-                  placeholder="Enter your name"
+                  placeholder="ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
                 />
                 <label htmlFor="exampleFormControlInput1" className="form-label">
-                  Email address
+                ಇಮೇಲ್ ವಿಳಾಸ
                 </label>
                 <input
                   type="email"
@@ -59,12 +59,12 @@ const Contact = () => {
                   name="email"
                   value={data.email}
                   onChange={inputEvent}
-                  placeholder="name@example.com"
+                  placeholder="ನಿಮ್ಮ ಇಮೇಲ್ ಐಡಿ ನಮೂದಿಸಿ"
                 />
               </div>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                  Example textarea
+                ಸಂದೇಶದ ವಿವರಗಳು
                 </label>
                 <textarea
                   className="form-control"
@@ -76,7 +76,7 @@ const Contact = () => {
                 ></textarea>
                 <div className="col-12">
                   <button className="btn btn-outline-primary mt-3" type="submit">
-                    Submit form
+                  ಸಲ್ಲಿಸು (Submit)
                   </button>
                 </div>
               </div>

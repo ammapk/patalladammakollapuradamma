@@ -1,5 +1,5 @@
-import basava from "../images/basavanna.png";
-import maingod from "../images/sripattlladammakollapuradamma.jpg";
+// import basava from "../images/basavanna.png";
+// import maingod from "../images/sripattlladammakollapuradamma.jpg";
 import amma from "../images/SripattalladammaSriKollapuradamma.png";
 import alankara from '../images/sripattlladammakollapuradamma.jpg';
 import utsav from "../images/UtsavMurthy.jpg";
@@ -24,116 +24,139 @@ import tm6 from "../images/Maramma-Basappanavaru.png";
 
 export const photos = [
     {
-      src: basava,
+      phid: 1,
+      src: basavanna,
       width: 3,
       height: 4
     },
     {
-      src: maingod,
+      phid: 2,
+      src: alankara,
       width: 1,
       height: 2
     },
     {
+      phid: 3,
       src: amma,
       width: 1,
       height: 2
     },
     {
+      phid: 4,
       src: utsav,
       width: 1,
       height: 1
     },
     {
+      phid: 5,
       src: shivaskandh,
       width: 1,
       height: 2
     },
     {
+      phid: 6,
       src: basavanna,
       width: 2,
       height: 2
     },
     {
+      phid: 7,
       src: img1,
       width: 3,
       height: 4
     },
     {
+      phid: 8,
       src: alankara,
       width: 2,
       height: 2
     },
     {
+      phid: 9,
       src: img2,
       width: 2,
       height: 2
     },
     {
+      phid: 10,
       src: img3,
       width: 3,
       height: 2
     },
     {
+      phid: 11,
       src: img4,
       width: 2,
       height: 2
     },
     {
+      phid: 12,
       src: img5,
       width: 2,
       height: 2
     },
     {
+      phid: 13,
       src: img6,
       width: 2,
       height: 2
     },
     {
+      phid: 14,
       src: img7,
       width: 2,
       height: 2
     },
     {
+      phid: 15,
       src: img8,
       width: 2,
       height: 2
     },
     {
+      phid: 16,
       src: img9,
       width: 2,
       height: 2
     },
     {
+        phid: 17,
         src: img10,
         width: 2,
         height: 2
     },
     {
+        phid: 18,
         src: tm1,
         width: 2,
         height: 2
       },
       {
+        phid: 19,
         src: tm2,
         width: 2,
         height: 2
       },
       {
+        phid: 20,
         src: tm3,
         width: 2,
         height: 2
       },
       {
+        phid: 21,
         src: tm4,
         width: 2,
         height: 2
       },
       {
+        phid: 22,
         src: tm5,
         width: 2,
         height: 2
       },
       {
+        phid: 23,
         src: tm6,
         width: 2,
         height: 2
